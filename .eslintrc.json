@@ -1,5 +1,5 @@
 {
-	"extends": ["airbnb", "plugin:prettier/recommended", "prettier/react"],
+	"extends": ["airbnb", "prettier/react", "plugin:prettier/recommended"],
 	"env": {
 		"browser": true,
 		"commonjs": true,
@@ -12,20 +12,6 @@
 		"react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
 		"react-hooks/rules-of-hooks": "error", // Checks rules of Hooks,
 		"react-hooks/exhaustive-deps": "warn", // Checks effect dependencies,
-		"max-len": [
-			"warn",
-			{
-				"code": 120,
-				"tabWidth": 2,
-				"comments": 120,
-				"ignoreComments": false,
-				"ignoreTrailingComments": true,
-				"ignoreUrls": true,
-				"ignoreStrings": true,
-				"ignoreTemplateLiterals": true,
-				"ignoreRegExpLiterals": true
-			}
-		],
 		"prettier/prettier": "error",
 		"no-unused-vars": "warn",
 		"no-console": "off",
