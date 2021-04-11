@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "server": "concurrently -k npm:server:*",
-    "server:apollo": "cd apollo && yarn start",
-    "server:express": "cd express && yarn start",
+    "server:apollo-server": "cd apollo-server && yarn start",
+    "server:express-graphql": "cd express-graphql && yarn start",
     "server:apollo-express": "cd apollo-express && yarn start",
     "server:gateway": "cd gateway && yarn start",
     "client": "cd client && yarn start",
